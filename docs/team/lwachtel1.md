@@ -1,10 +1,10 @@
-# Lukas Ethan Wachtel's Project Portfolio Page
+# Lukas Ethan Wachtel (LWachtel1) Project Portfolio Page
 
 ## Project: ByteCeps
 BYTE-CEPS is a CLI-based tool for setting and tracking fitness goals. 
 The user interacts with the tool using commands entered via the CLI interface. With BYTE-CEPS, they can compile a list of exercises, build custom workouts, assign workouts to a weekly schedule and log details of each exercise completed in each performed workout. 
 
-## Summary of Contributions
+## Summary of Contributions: [LWachtel1 RepoSense](https://nus-cs2113-ay2324s2.github.io/tp-dashboard/?search=lwachtel1&breakdown=true)
 
 ### New Features
 + **Help menu**:  Shows the user how to correctly format each possible BYTE-CEPS command.
@@ -30,22 +30,16 @@ The user interacts with the tool using commands entered via the CLI interface. W
     + [Issue #69](https://github.com/AY2324S2-CS2113-F14-3/tp/issues/69): Use of the `HashSet` class was causing incorrect ordering in exercise & workout lists, so I implemented a [fix](https://github.com/AY2324S2-CS2113-F14-3/tp/pull/92) by using the `LinkedHashSet` class instead.
     + [Issue #44](https://github.com/AY2324S2-CS2113-F14-3/tp/issues/44): Implemented [fixes](https://github.com/AY2324S2-CS2113-F14-3/tp/pull/49) for unhandled exceptions for `week` (now called `program`).
 
-### Code Contributed 
-[LWachtel1 RepoSense](https://nus-cs2113-ay2324s2.github.io/tp-dashboard/?search=lwachtel1&breakdown=true)
-
 ### Documentation
 + **Javadocs**: Added Javadocs to all non-trivial methods in the `HelpMenuManager` and `HelpValidator` classes, as well as adding class header comments for both classes.
-+ **UG**:
-    + Added all documentation for the help menu and related commands.
++ **UG**: Added all documentation for the help menu and related commands.
 + **DG**:
-    + Wrote whole help menu section, including descriptions for the component interactions behind each type of help menu related command.
-    + Added all sequence diagrams for the help menu section  
+    + Entire help menu section, including descriptions and sequence diagrams
     + Added to **_v4vern_**'s manual testing section regarding the help menu.
 
 ### Community (Contributions to the Team and Beyond):
 + Review my teammates' PRs
-+ Reported an above-average number of bugs during the PE dry run, 8 bugs, for the team working on MediTracker.
-  + See [proof of contributions here](https://github.com/LWachtel1/ped/tree/main/files).
++ Reported an above-average number of bugs during the PE dry run, 8 bugs, for the team working on MediTracker. See [proof here](https://github.com/LWachtel1/ped/tree/main/files).
 
 <div style="page-break-after: always;"></div>
 
