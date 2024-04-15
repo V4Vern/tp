@@ -3,6 +3,8 @@
 ## Introduction
 Welcome to BYTE-CEPS, your CLI-based all-in-one tool for setting and tracking fitness goals. Whether you're a tech-savvy fitness enthusiast or just starting your fitness journey, BYTE-CEPS offers the simplicity and efficiency of a CLI interface to help you maintain or improve your fitness through self-managed routines.
 
+Please note that as of the current version, BYTE-CEPS supports tracking both weight-related exercises and body weight exercises. However, cardio tracking is not yet supported. Stay tuned for future updates as we strive to expand BYTE-CEPS to encompass a broader range of fitness activities.
+
 - [BYTE-CEPS User Guide](#byte-ceps-user-guide)
 	- [Introduction](#introduction)
 	- [Features](#features)
