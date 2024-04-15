@@ -41,17 +41,17 @@ As such, I tweaked all print messages to reflect the commands that they needed t
 ### Enhancement: Bug fixes
 * I fixed several bugs that can be seen in the [GitHub repo here](https://github.com/AY2324S2-CS2113-F14-3/tp/pulls?q=is%3Apr+is%3Aclosed+author%3Ajoshualeejunyi+label%3Abug).
 
-### Contributions to the UG:
+## Contributions to the UG
 * Added the Table of Contents for the UG
 * Authored the Program Management / Workout Logging section of the UG
 * Contributed to standardizing the language and format of the UG
 
-### Contributions to the DG:
-#### Sections contributed:
+## Contributions to the DG
+### Sections contributed:
 * Contributed to the Architecture section 
 * Described in detail regarding the flow and process of Logging an exercise
 
-#### Added UML diagrams:
+### Added UML diagrams
 * Class Diagram for ByteCeps Architecture: 
 
   ![](../diagrams/architectureDiagram.svg)
@@ -60,7 +60,7 @@ As such, I tweaked all print messages to reflect the commands that they needed t
 
   ![](../diagrams/workoutLog.svg)
 
-### Contributions to team-based tasks
+## Contributions to team-based tasks
 * Setup organization in GitHub
 * Regularly followed up on issues and PRs
 * Submitted and managed latest release version `v2.1` 
@@ -68,7 +68,7 @@ As such, I tweaked all print messages to reflect the commands that they needed t
     * [Add Storage class and functionality](https://github.com/AY2324S2-CS2113-F14-3/tp/pull/60#pullrequestreview-1956391203)
     * [Refactor code to use UserInterface.printMessage() ](https://github.com/AY2324S2-CS2113-F14-3/tp/pull/30#discussion_r1527492503)
 
-### Contributions beyond the project team
+## Contributions beyond the project team
 * PE dry Run:
     * [Screenshot captured during PE dry run](https://github.com/joshualeejunyi/ped/tree/main/files)
 * DG review for other teams:

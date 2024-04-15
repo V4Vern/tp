@@ -9,7 +9,7 @@ The user interacts with the tool using commands entered via the CLI interface. W
 ### New Features
 + **Help menu**:  Shows the user how to correctly format each possible BYTE-CEPS command.
     + What it does: Upon initial program execution, a guidance message detailing the commands to access the help menu is displayed. A user can enter 1 of these commands to view 3 different lists, each one with numbered items describing the functionalities associated with a category tracked by BYTE-CEPS. They can then see a given functionality's specific command formatting by entering the previous command along with the number from its help menu list position as a parameter.
-    + Credits: I wrote the initial HelpMenuManager class, and **_joshualeejunyi_** & **_pqienso_** refined my code. I then added functionality to view the access guidance message whenever the user enters `help` alone.
+    + Credits: I wrote the initial HelpMenuManager class & added Javadocs, and **_joshualeejunyi_** & **_pqienso_** refined my code. I then added functionality to view the access guidance message whenever the user enters `help` alone.
 + **Editing an exercise**: Allows user to change name of an already created exercise.
 
 ### Enhancements to Existing Features 
@@ -20,18 +20,16 @@ The user interacts with the tool using commands entered via the CLI interface. W
       **_pqienso_** significantly improved said package by changing each `Validator`-type class to have only one public method, which is  called from the `Validator`-type class `execute()` method. This public `Validator` method calls another private method that validates input for the specific private `Manager` method that `execute()` has called to execute the user's command. 
 + **Testing `Storage` methods**: 75% of methods within `Storage` are covered.
     + Credits: I wrote all test methods within the `StorageTest` class and the helper methods for file handling. **_joshualeejunyi_** wrote `setup()`, `setUpStreams()`and `restoreStreams()`, which are integral to the functioning of the test methods.
-+ **Testing `ExerciseManager` method for editing an exercise**: Enables my teammates and I, as well as any future developers, to ensure that the functionality for editing an exercise name is working properly.
-  + What it does: It tests that the `execute()` method in `ExerciseManager` edits an exercise under conditions where success is expected and throw exceptions under conditions where editing should fail.
++ **Testing `ExerciseManager` method for editing an exercise**: 
   + Credits: I wrote all test methods for editing an exercise. However, other tests written by my teammates acted as helpful guidance.
 + **Testing `HelpMenuManager` and `HelpValidator` methods**: 87% of methods within `HelpMenuManager` and 100% within `HelpValidator` are covered.
   + Credits: I wrote all test methods. I reused and adapted **_joshualeejunyi_**'s `setup()`, `setUpStreams()`and `restoreStreams()` methods.
 + **Bug fixes**:
     + [Issue #114](https://github.com/AY2324S2-CS2113-F14-3/tp/issues/114): Implemented a [fix](https://github.com/AY2324S2-CS2113-F14-3/tp/pull/139) for a logging bug where a user was unable to log two of the same exercise on the same day; I did this by overriding the existing `equals()` method used by `ExerciseLog`, which was the bug's cause. 
     + [Issue #69](https://github.com/AY2324S2-CS2113-F14-3/tp/issues/69): Use of the `HashSet` class was causing incorrect ordering in exercise & workout lists, so I implemented a [fix](https://github.com/AY2324S2-CS2113-F14-3/tp/pull/92) by using the `LinkedHashSet` class instead.
-    + [Issue #44](https://github.com/AY2324S2-CS2113-F14-3/tp/issues/44): Implemented [fixes](https://github.com/AY2324S2-CS2113-F14-3/tp/pull/49) for unhandled exceptions for `week` (now called `program`).
+    + [Issue #47](https://github.com/AY2324S2-CS2113-F14-3/tp/issues/47): Implemented [fixes](https://github.com/AY2324S2-CS2113-F14-3/tp/pull/49) for unhandled exceptions for `week` (now called `program`).
 
 ### Documentation
-+ **Javadocs**: Added Javadocs to all non-trivial methods in the `HelpMenuManager` and `HelpValidator` classes, as well as adding class header comments for both classes.
 + **UG**: Added all documentation for the help menu and related commands.
 + **DG**:
     + Entire help menu section, including descriptions and sequence diagrams

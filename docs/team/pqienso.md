@@ -88,7 +88,7 @@ All code contributed can be seen on the tP dashboard
 <div style="page-break-after: always;"></div>
 
 `program /clear ...` sequence diagram:\
-<img src="../diagrams/clearProgram.svg" alt="drawing" width="80%"/>\
+<img src="../diagrams/clearProgram.svg" alt="drawing" width="70%"/>\
 `program /today` sequence diagram:\
 <img src="../diagrams/programToday.svg" alt="drawing" width="90%"/>
 
